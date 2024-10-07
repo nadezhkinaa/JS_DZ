@@ -1,2 +1,2 @@
 # JS_DZ
-homeworks js10
+homeworks js
