@@ -1,5 +1,6 @@
 //1 Вывести в терминал строку “Hello World!
 console.log('Hello world!');
+console.log('Hello world!');
 console.log();
 
 //2  Создать переменную для каждого типа данныx
@@ -9,7 +10,7 @@ let variableBoolean = true;
 let variableNull = null;
 let variableUnderfined;
 let variableObject = {
-    name: "John",
+    name: 'John',
     age: 30,
 };
 let variableSymbol = Symbol();
@@ -28,28 +29,28 @@ console.log();
 
 //4 Вывести ее тип через оператор typeof и функцию typeof
 console.log('variableNumber :', typeof variableNumber);
-console.log('variableNumber :', typeof(variableNumber));
+console.log('variableNumber :', typeof variableNumber);
 
 console.log('variableString :', typeof variableString);
-console.log('variableString :', typeof(variableString));
+console.log('variableString :', typeof variableString);
 
 console.log('variableBoolean :', typeof variableBoolean);
-console.log('variableBoolean :', typeof(variableBoolean));
+console.log('variableBoolean :', typeof variableBoolean);
 
 console.log('variableNull :', typeof variableNull);
-console.log('variableNull :', typeof(variableNull));
+console.log('variableNull :', typeof variableNull);
 
 console.log('variableUnderfined :', typeof variableUnderfined);
-console.log('variableUnderfined :', typeof(variableUnderfined));
+console.log('variableUnderfined :', typeof variableUnderfined);
 
 console.log('variableObject :', typeof variableObject);
-console.log('variableObject :', typeof(variableObject));
+console.log('variableObject :', typeof variableObject);
 
 console.log('variableSymbol :', typeof variableSymbol);
-console.log('variableSymbol :', typeof(variableSymbol));
+console.log('variableSymbol :', typeof variableSymbol);
 
 console.log('variableBigint :', typeof variableBigint);
-console.log('variableBigint :', typeof(variableBigint));
+console.log('variableBigint :', typeof variableBigint);
 
 console.log();
 
@@ -60,8 +61,8 @@ const name = 'Alex';
 
 //6 Попробовать изменить переменную с типом object объявленную через const
 const user = {
-    name: "Alex",
-    age: 25
+    name: 'Alex',
+    age: 25,
 };
 
 /*user = {
@@ -72,29 +73,28 @@ const user = {
 
 //7 Попробовать изменить переменную с типом objectобъявленную через let
 let address = {
-    city: "Москва",
-    street: "Ленина",
-    house: 10
-}
+    city: 'Москва',
+    street: 'Ленина',
+    house: 10,
+};
 
 address = {
-    city: "Москва",
-    street: "Ленина",
-    house: 15
-}
+    city: 'Москва',
+    street: 'Ленина',
+    house: 15,
+};
 
 //переменная изменяется
-
 
 //8 Попробовать изменить переменную с типом object объявленную через var
 
 var product = {
-    name: "iPhone 14 Pro",
+    name: 'iPhone 14 Pro',
     price: 1000,
 };
 
 product = {
-    name: "iPhone 14 Pro",
+    name: 'iPhone 14 Pro',
     price: 100,
 };
 //переменная изменяется
